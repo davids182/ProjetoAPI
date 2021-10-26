@@ -15,11 +15,9 @@ namespace ProjetoAPI.Models
         public string categoria { get; set; }
         public string divisao { get; set; }
         public string descricao { get; set; }
-
         public int estoque { get; set; }
         public string fornecedor { get; set; }
         public string imagem { get; set; }
-
         public string usuario_alt { get; set; }
         public DateTime reg_alt { get; set; } = DateTime.Now;
 
