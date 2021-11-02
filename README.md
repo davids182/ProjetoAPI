@@ -5,7 +5,7 @@ Aplicativo API para gerenciamento de uma tabela de produtos, salvando os dados e
 
 Oferece recursos POST - PUT - GET - DELETE
 
-<img src="https://github.com/davids182/ProjetoC-A_photos/blob/87c783c586c6172219b6eee49802d8cd0fd48a17/Projeto%20C&A.png" alt="Diagrama de descrição do projeto">
+<img src="https://github.com/davids182/ProjetoC-A_photos/blob/f3fd89f76f05d20f9ca6077d99ba17ccfa7fc71b/Fluxograma_do_Sistema_v2.png" alt="Diagrama de descrição do projeto">
 
 <h2> Como usar </h2>
 
