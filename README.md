@@ -10,10 +10,20 @@ Oferece recursos POST - PUT - GET - DELETE
 <h2> Como usar </h2>
 
 <p>
-  
+  Com o projeto do repositório aberto no Visual Studio 2019, vá até o arquivo 'appsettings.json' na linha 04 em "DefaultConnection" e insira/altere o password que corresponde ao seu usuário root do MySQL, essa alteração fará com que a API consiga se conectar com o seu MySQL.
+  Após essa etapa é necessário atualizar o database para a aplicação realizar a ORM e definição dos models no banco de dados. <br>Acesse a opção no seu Visual Studio. Ferramentas  -> Gerenciador de Pacotes do Nuget -> Console do Gerenciador  de Pacotes, execute o seguinte comando: update-database.<br>
+  <br>
+  O resultado deverá ser a mensagem abaixo:<br>
+  PM> update-database<br>
+  Build started...<br>
+  Build succeeded.<br>
+  Done.<br>
+ 
+ Pronto, agora execute a aplicação, e com isso a API estará conectada ao banco de dados e rodando.  
 </p>
 
 <h2> Tecnologias utilizadas para criar </h2>
 <div align="start">
   <p> ▪️ C# (ASP.NET Core, EntityFramework, Pomelo) </p>
+  <p> ▪️ MySQL </p>
 </div>
